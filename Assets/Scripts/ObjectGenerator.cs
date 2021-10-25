@@ -47,7 +47,7 @@ public class ObjectGenerator : MonoBehaviour
             Vector3 pos = new Vector3(x, current_y, 0);
 
             // 1/8 de chance de générer un obstacle si le jeu est en mode difficile
-            if ((gm.hard == true) && (Random.Range(1, 9) == 1) && !(previous_is_obs))
+            if ((gm.hard == true) && (Random.Range(1, 9) == 1) && !(previous_is_obs) && !(previous_is_brown))
             {
                 GameObject obstacle = obstacles[Random.Range(0, obstacles.Length)];
                 Instantiate(obstacle, pos, Quaternion.identity);
