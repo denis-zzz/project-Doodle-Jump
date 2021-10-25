@@ -665,6 +665,8 @@ MonoBehaviour:
   gm: {fileID: 1428173367}
   spawnDelay: 4
   spring: {fileID: 548790902027159906, guid: 2f7ebcc384c12fb449e833f41a02e675, type: 3}
+  jetpack: {fileID: 6328622956460692727, guid: 2f751b5213e0ea64d803164d8fe929c7, type: 3}
+  haticopter: {fileID: 8891101605624848287, guid: 6e81a0e4dfad5614ebb43329e4eabed9, type: 3}
 --- !u!4 &1048950377
 Transform:
   m_ObjectHideFlags: 0

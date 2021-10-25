@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
     float offset = 0.5f;
     private GameManager gm;
 
-
-    // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
